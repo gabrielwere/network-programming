@@ -1,0 +1,13 @@
+#ifndef CODES
+#define CODES
+
+#define SERVICE_READY "220"
+#define USERNAME_OK "331"
+#define SUCCESSFUL_LOGIN "230"
+#define REQUEST_COMPLETED "200"
+#define TRANSFER_COMPLETE "226"
+#define ENTERING_PASSIVE_MODE "227"
+#define DATA_CONNECTION_OPEN "125"
+#define NO_SUCH_FILE "550"
+
+#endif
