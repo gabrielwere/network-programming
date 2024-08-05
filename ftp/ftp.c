@@ -231,10 +231,7 @@ int return_data_port(int sockfd,unsigned char *server_response){
 //checks if the first 3 chars of response,match the chars in code
 int check_return_code(unsigned char *response,unsigned char *code){
 
-	if(strncmp(response,code,3) == 0)
-		return 1;
-	else
-		return -1;
+	return ((strncmp(response,code,3) == 0) ? 1 : -1);			
 }
 
 char *receive_data(int data_socket,int data_size,int *total_bytes_received){
